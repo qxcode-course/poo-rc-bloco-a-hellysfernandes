@@ -10,8 +10,6 @@ class Towel:
             self.wetness = self.isMaxWetness()
             print("toalha saturada, ensopada, pingando")
 
-    def 
-
     def wringOut(self):
         self.wetness = 0
 
@@ -25,7 +23,7 @@ class Towel:
         return 0 # default return
 
     def __str__(self) -> str: # toString
-        return f"Cor:{self.color}, Tamanho:{self.size}, Umidade:{self.wetness}"
+        return f"Color:{self.color}, Size:{self.size}, Wet:{self.wetness}"
 
 def main(): 
     towel: Towel = Towel("", "") # 2: criar um obj com qq valor inicial
@@ -40,14 +38,10 @@ def main():
             color: str = args[1]
             size: str = args[2]
             towel = Towel(color, size)
-        elif args[0] == "seca":
-            print("sim" if towel.idDry() else "nao")
-        elif args[0] == "":
-
-        elif args[0] == "enchugar":
+        elif args[0] == "dry":
             amount: int = int(args[1])
             towel.dry(amount)
-        elif args[0] == "mostrar":
+        elif args[0] == "show":
             print(towel)
         else: # 7: erro
             print("fail: comando não encontrado")
