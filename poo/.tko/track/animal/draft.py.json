@@ -12,8 +12,228 @@
         },
         {
             "label": "2025-09-24_18-26-10",
-            "content": "class Animal:\n    def __init__(self, spacies: str, sound:str):\n        self.spcacies: str = spacies\n        self.age: int = 0\n        self.sound: str = sound\n\n    def __str__(self) -> str:\n        return f\"{self.spcacies}, {self.age}, {self.sound}\"\n    \n    def ismakeSound(self) -> str:\n        if self.age == 0:\n            return \"--\"\n        elif self.age == 1:\n            return f\"{self.sound}\"\n        elif self.age == 2:\n            return f\"{self.sound}\"\n        elif self.age == 3:\n            return f\"{self.sound}\"\n        return \"RIP\"\n    \n    def ageBy(self, increment: int):\n        self.age += increment\n        if self.age >= 4:\n            self.age = 4\n            print(f\"warning: {self.species} morreu\")\n            return\n        if self.age == 0:\n            return \"--\"\n        return f\"{self.age}\"\n        \n    ",
+            "content": "@@ -585,18 +585,10 @@\n int)\n- -%3E None\n :%0A\n+\n     \n@@ -736,34 +736,32 @@\n  return%0A        \n-el\n if self.age == 0\n@@ -828,246 +828,8 @@\n    %0A\n-def main():%0A    animal: Animal = Animal(%22%22, %22%22)%0A    while True:%0A%0A        line: str = input()%0A        print(%22$%22 + line)%0A        args: list%5Bstr%5D = line.split(%22%22)%0A%0A        if args%5B0%5D == %22and%22:%0A            break%0A        elif args%5B0%5D == %22%22%0A%0Amain()\n+    \n",
             "lines": "31"
+        },
+        {
+            "label": "2025-09-25_08-37-17",
+            "content": "@@ -329,17 +329,16 @@\n turn %22--\n--\n %22%0A      \n@@ -1071,250 +1071,9 @@\n == %22\n-init%22:%0A            spacies: str = args%5B1%5D%0A            sound: str = args%5B2%5D%0A            animal = Animal(spacies, sound)%0A        elif args%5B0%5D == %22show%22:%0A            print(animal)%0A        else:%0A            print(%22ERRO: protocolo nao encontrado%22)\n+%22\n %0A%0Ama\n",
+            "lines": "43"
+        },
+        {
+            "label": "2025-09-25_08-50-09",
+            "content": "@@ -992,17 +992,16 @@\n .split(%22\n- \n %22)%0A%0A    \n",
+            "lines": "50"
+        },
+        {
+            "label": "2025-09-25_08-50-23",
+            "content": "@@ -214,17 +214,17 @@\n pcacies%7D\n-:\n+,\n  %7Bself.a\n@@ -226,17 +226,17 @@\n elf.age%7D\n-:\n+,\n  %7Bself.s\n@@ -1115,39 +1115,8 @@\n %5B1%5D%0A\n-            age: int = args%5B2%5D%0A\n     \n@@ -1141,17 +1141,17 @@\n  = args%5B\n-3\n+2\n %5D%0A      \n",
+            "lines": "50"
+        },
+        {
+            "label": "2025-09-25_08-58-24",
+            "content": "@@ -67,24 +67,25 @@\n      self.sp\n+c\n acies: str =\n@@ -207,16 +207,17 @@\n %7Bself.sp\n+c\n acies%7D: \n@@ -1111,16 +1111,47 @@\n args%5B1%5D%0A\n+            age: int = args%5B2%5D%0A\n         \n@@ -1164,33 +1164,33 @@\n und: str = args%5B\n-2\n+3\n %5D%0A            an\n",
+            "lines": "51"
+        },
+        {
+            "label": "2025-09-25_09-06-02",
+            "content": "@@ -213,16 +213,17 @@\n pacies%7D:\n+ \n %7Bself.ag\n@@ -225,16 +225,17 @@\n lf.age%7D:\n+ \n %7Bself.so\n",
+            "lines": "50"
+        },
+        {
+            "label": "2025-09-25_09-08-02",
+            "content": "@@ -1241,16 +1241,82 @@\n (animal)\n+%0A        else:%0A            print(%22ERRO: protocolo nao encontrado%22)\n %0A%0Amain()\n",
+            "lines": "50"
+        },
+        {
+            "label": "2025-09-25_09-08-41",
+            "content": "@@ -922,17 +922,16 @@\n = input(\n- \n )%0A      \n",
+            "lines": "48"
+        },
+        {
+            "label": "2025-09-25_10-23-58",
+            "content": "@@ -922,16 +922,17 @@\n = input(\n+ \n )%0A      \n",
+            "lines": "48"
+        },
+        {
+            "label": "2025-09-26_17-49-05",
+            "content": "@@ -1016,17 +1016,17 @@\n %5B0%5D == %22\n-e\n+a\n nd%22:%0A   \n",
+            "lines": "48"
+        },
+        {
+            "label": "2025-09-26_17-52-31",
+            "content": "@@ -216,9 +216,9 @@\n ies%7D\n-;\n+:\n %7Bsel\n",
+            "lines": "48"
+        },
+        {
+            "label": "2025-09-26_17-59-36",
+            "content": "@@ -212,17 +212,17 @@\n spacies%7D\n-:\n+;\n %7Bself.ag\n",
+            "lines": "48"
+        },
+        {
+            "label": "2025-09-26_17-59-50",
+            "content": "@@ -1188,71 +1188,8 @@\n nd)%0A\n-        elif args%5B0%5D == %22grow%22:%0A            age: int = args%5B1%5D%0A\n     \n",
+            "lines": "48"
+        },
+        {
+            "label": "2025-09-26_18-06-37",
+            "content": "@@ -1180,13 +1180,8 @@\n ies,\n- age,\n  sou\n",
+            "lines": "50"
+        },
+        {
+            "label": "2025-09-26_18-07-02",
+            "content": "@@ -1176,16 +1176,21 @@\n spacies,\n+ age,\n  sound)%0A\n@@ -1233,25 +1233,19 @@\n         \n-increment\n+age\n : int = \n",
+            "lines": "50"
+        },
+        {
+            "label": "2025-09-26_18-09-48",
+            "content": "@@ -1249,21 +1249,15 @@\n t = \n-int (\n args%5B1%5D\n-)\n %0A   \n",
+            "lines": "50"
+        },
+        {
+            "label": "2025-09-26_18-12-11",
+            "content": "@@ -1263,62 +1263,8 @@\n 1%5D)%0A\n-            animal = Animal(spacies,increment, sound)%0A\n     \n",
+            "lines": "50"
+        },
+        {
+            "label": "2025-09-26_18-23-34",
+            "content": "@@ -1287,16 +1287,24 @@\n  Animal(\n+spacies,\n incremen\n@@ -1304,16 +1304,23 @@\n ncrement\n+, sound\n )%0A      \n",
+            "lines": "51"
+        },
+        {
+            "label": "2025-09-26_18-23-57",
+            "content": "@@ -1259,16 +1259,55 @@\n rgs%5B1%5D)%0A\n+            animal = Animal(increment)%0A\n         \n",
+            "lines": "51"
+        },
+        {
+            "label": "2025-09-26_18-24-07",
+            "content": "@@ -1248,16 +1248,17 @@\n nt = int\n+ \n (args%5B1%5D\n",
+            "lines": "50"
+        },
+        {
+            "label": "2025-09-26_18-28-09",
+            "content": "@@ -789,24 +789,53 @@\n return %22--%22%0A\n+        return f%22%7Bself.age%7D%22%0A\n         %0Adef\n",
+            "lines": "50"
+        },
+        {
+            "label": "2025-09-26_18-33-15",
+            "content": "@@ -797,55 +797,8 @@\n --%22%0A\n-        else:%0A            return f%22%7Bself.age%7D%22%0A\n     \n",
+            "lines": "49"
+        },
+        {
+            "label": "2025-09-26_18-35-35",
+            "content": "@@ -789,24 +789,42 @@\n return %22--%22%0A\n+        else:%0A    \n         retu\n@@ -826,22 +826,16 @@\n  return \n-print(\n f%22%7Bself.\n@@ -839,17 +839,16 @@\n lf.age%7D%22\n-)\n %0A       \n",
+            "lines": "51"
+        },
+        {
+            "label": "2025-09-26_18-36-20",
+            "content": "@@ -588,16 +588,46 @@\n %3E None:%0A\n+        self.age += increment%0A\n         \n@@ -797,60 +797,8 @@\n --%22%0A\n-        else:%0A            self.age += increment%0A    \n     \n@@ -800,32 +800,38 @@\n %0A        return \n+print(\n f%22%7Bself.age%7D%22%0A  \n@@ -827,16 +827,17 @@\n lf.age%7D%22\n+)\n %0A       \n",
+            "lines": "50"
+        },
+        {
+            "label": "2025-09-26_18-50-16",
+            "content": "@@ -592,38 +592,8 @@\n ne:%0A\n-        self.age += increment%0A\n     \n@@ -672,25 +672,25 @@\n ng: %7Bself.sp\n-a\n+e\n cies%7D morreu\n@@ -759,24 +759,76 @@\n return %22--%22%0A\n+        else:%0A            self.age += increment%0A    \n         retu\n@@ -1259,16 +1259,21 @@\n ncrement\n+: int\n  = int(a\n",
+            "lines": "51"
+        },
+        {
+            "label": "2025-09-26_18-51-20",
+            "content": "@@ -1241,23 +1241,23 @@\n ment\n-:\n+ =\n  int\n- = \n+(\n args%5B1%5D\n+)\n %0A   \n",
+            "lines": "50"
+        },
+        {
+            "label": "2025-09-26_18-51-41",
+            "content": "@@ -116,17 +116,17 @@\n : int = \n-4\n+0\n %0A       \n@@ -1249,20 +1249,15 @@\n t = \n-int(\n args%5B1%5D\n-)\n %0A   \n",
+            "lines": "50"
+        },
+        {
+            "label": "2025-09-26_19-03-07",
+            "content": "@@ -116,17 +116,17 @@\n : int = \n-0\n+4\n %0A       \n@@ -582,19 +582,20 @@\n int) -%3E \n-int\n+None\n :%0A      \n",
+            "lines": "50"
+        },
+        {
+            "label": "2025-09-26_19-09-15",
+            "content": "@@ -586,12 +586,11 @@\n  -%3E \n-None\n+int\n :%0A  \n",
+            "lines": "50"
+        },
+        {
+            "label": "2025-09-26_19-18-33",
+            "content": "@@ -1262,44 +1262,8 @@\n 1%5D)%0A\n-            animal.ageBy(increment)%0A\n     \n",
+            "lines": "50"
+        },
+        {
+            "label": "2025-09-26_19-20-11",
+            "content": "@@ -1262,66 +1262,8 @@\n 1%5D)%0A\n-        elif args%5B0%5D == %22noise%22:%0A            print(sound)%0A\n     \n",
+            "lines": "51"
+        },
+        {
+            "label": "2025-09-26_19-40-04",
+            "content": "@@ -1262,44 +1262,8 @@\n 1%5D)%0A\n-            animal.ageBy(increment)%0A\n     \n@@ -1312,24 +1312,60 @@\n rint(sound)%0A\n+            animal.ageBy(increment)%0A\n         elif\n",
+            "lines": "53"
+        },
+        {
+            "label": "2025-09-26_19-41-49",
+            "content": "@@ -255,43 +255,32 @@\n def \n-ageBy(self, increment: int\n+ismakeSound(self\n ) -%3E \n-None\n+str\n :%0A  \n@@ -277,32 +277,35 @@\n -%3E str:%0A        \n+if \n self.age += incr\n@@ -301,20 +301,38 @@\n age \n-+= increment\n+== 0:%0A            return %22---%22\n %0A   \n@@ -328,32 +328,34 @@\n n %22---%22%0A        \n+el\n if self.age %3E= 4\n@@ -354,12 +354,12 @@\n age \n-%3E= 4\n+== 1\n :%0A  \n@@ -372,73 +372,58 @@\n     \n-self.age = 4%0A            print(f%22warning: %7Bself.spacies%7D morreu%22)\n+return f%22%7Bself.sound%7D%22%0A        elif self.age == 2:\n %0A   \n@@ -437,16 +437,32 @@\n   return\n+ f%22%7Bself.sound%7D%22\n %0A       \n@@ -471,33 +471,33 @@\n lif self.age == \n-0\n+3\n :%0A            re\n@@ -501,19 +501,30 @@\n  return \n-%22--\n+f%22%7Bself.sound%7D\n %22%0A      \n@@ -536,20 +536,12 @@\n urn \n-f%22%7Bself.age%7D\n+%22RIP\n %22%0A  \n@@ -555,32 +555,43 @@\n def \n-ismakeSound(self\n+ageBy(self, increment: int\n ) -%3E \n-str\n+None\n :%0A  \n@@ -588,35 +588,32 @@\n %3E None:%0A        \n-if \n self.age == 0:%0A \n@@ -609,38 +609,20 @@\n age \n-== 0:%0A            return %22---%22\n++= increment\n %0A   \n@@ -618,34 +618,32 @@\n crement%0A        \n-el\n if self.age == 1\n@@ -630,36 +630,36 @@\n     if self.age \n-== 1\n+%3E= 4\n :%0A            re\n@@ -660,58 +660,73 @@\n     \n-return f%22%7Bself.sound%7D%22%0A        elif self.age == 2:\n+self.age = 4%0A            print(f%22warning: %7Bself.spacies%7D morreu%22)\n %0A   \n@@ -740,32 +740,16 @@\n   return\n- f%22%7Bself.sound%7D%22\n %0A       \n@@ -758,33 +758,33 @@\n lif self.age == \n-3\n+0\n :%0A            re\n@@ -784,38 +784,27 @@\n      return \n-f%22%7Bself.sound%7D\n+%22--\n %22%0A        re\n@@ -812,15 +812,24 @@\n urn \n-%22RIP%22 %0A\n+f%22%7Bself.age%7D%22%0A  \n     \n",
+            "lines": "53"
+        },
+        {
+            "label": "2025-09-26_19-46-05",
+            "content": "@@ -1330,41 +1330,8 @@\n e%22:%0A\n-            animal.ismakeSound()%0A\n     \n",
+            "lines": "53"
+        },
+        {
+            "label": "2025-09-26_19-52-47",
+            "content": "@@ -1357,21 +1357,16 @@\n keSound(\n-sound\n )%0A      \n",
+            "lines": "54"
+        },
+        {
+            "label": "2025-09-26_19-53-20",
+            "content": "@@ -1357,16 +1357,46 @@\n keSound(\n+sound)%0A            print(sound\n )%0A      \n",
+            "lines": "54"
+        },
+        {
+            "label": "2025-09-26_19-53-42",
+            "content": "@@ -1363,33 +1363,8 @@\n d()%0A\n-            print(sound)%0A\n     \n",
+            "lines": "53"
+        },
+        {
+            "label": "2025-09-26_19-55-51",
+            "content": "@@ -1326,16 +1326,49 @@\n noise%22:%0A\n+            animal.ismakeSound()%0A\n         \n",
+            "lines": "54"
+        },
+        {
+            "label": "2025-09-26_19-56-50",
+            "content": "@@ -846,20 +846,8 @@\n ():%0A\n-    so = %22%22%0A\n     \n@@ -1330,56 +1330,8 @@\n e%22:%0A\n-            %0A            animal.ismakeSound(so)%0A\n     \n@@ -1346,16 +1346,19 @@\n print(so\n+und\n )%0A      \n",
+            "lines": "53"
+        },
+        {
+            "label": "2025-09-26_19-58-54",
+            "content": "@@ -842,16 +842,28 @@\n main():%0A\n+    so = %22%22%0A\n     anim\n@@ -1346,31 +1346,24 @@\n             \n-so = %22%22\n %0A           \n",
+            "lines": "56"
+        },
+        {
+            "label": "2025-09-26_19-59-10",
+            "content": "@@ -1326,16 +1326,36 @@\n noise%22:%0A\n+            so = %22%22%0A\n         \n@@ -1379,19 +1379,16 @@\n Sound(so\n-und\n )%0A      \n@@ -1401,19 +1401,16 @@\n print(so\n-und\n )%0A      \n",
+            "lines": "55"
+        },
+        {
+            "label": "2025-09-26_20-09-56",
+            "content": "@@ -1357,16 +1357,21 @@\n keSound(\n+sound\n )%0A      \n",
+            "lines": "54"
+        },
+        {
+            "label": "2025-09-26_20-10-07",
+            "content": "@@ -1357,25 +1357,16 @@\n keSound(\n-increment\n )%0A      \n",
+            "lines": "54"
+        },
+        {
+            "label": "2025-09-26_20-12-11",
+            "content": "@@ -1334,30 +1334,24 @@\n             \n-print(\n animal.ismak\n@@ -1357,17 +1357,50 @@\n keSound(\n-)\n+increment)%0A            print(sound\n )%0A      \n",
+            "lines": "54"
+        },
+        {
+            "label": "2025-09-26_20-44-36",
+            "content": "class Animal:\n    def __init__(self, spacies: str, sound:str):\n        self.spacies: str = spacies\n        self.age: int = 0\n        self.sound: str = sound\n\n    def __str__(self) -> str:\n        return f\"{self.spacies}:{self.age}:{self.sound}\"\n    \n    def ageBy(self, increment: int) -> None:\n        self.age += increment\n        if self.age >= 4:\n            self.age = 4\n            print(f\"warning: {self.spacies} morreu\")\n            return\n        elif self.age == 0:\n            return \"--\"\n        return f\"{self.age}\"\n    \n    def ismakeSound(self) -> str:\n        if self.age == 0:\n            return \"---\"\n        elif self.age == 1:\n            return f\"{self.sound}\"\n        elif self.age == 2:\n            return f\"{self.sound}\"\n        elif self.age == 3:\n            return f\"{self.sound}\"\n        return \"RIP\" \n      \ndef main():\n    animal: Animal = Animal(\"\", \"\")\n    while True:\n\n        line: str = input()\n        print(\"$\" + line)\n        args: list[str] = line.split(\" \")\n\n        if args[0] == \"end\":\n            break\n        elif args[0] == \"init\":\n            spacies: str = args[1]\n            sound: str = args[2]\n            animal = Animal(spacies, sound)\n        elif args[0] == \"grow\":\n            increment: int = int(args[1])\n            animal.ageBy(increment)\n        elif args[0] == \"noise\":\n            print(animal.ismakeSound())\n        elif args[0] == \"show\":\n            print(animal)\n\nmain()",
+            "lines": "53"
         }
     ]
 }
