@@ -29,6 +29,7 @@ class Towel:
         return f"Cor: {self.color}, Tamanho: {self.size}, Umidade: {self.wetness}"
 
 def main(): 
+    
     towel: Towel = Towel("", "") # 2: criar um obj com qq valor inicial
     while True: # 3: loop infinito
 
