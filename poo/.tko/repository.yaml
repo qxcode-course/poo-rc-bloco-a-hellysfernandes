@@ -8,16 +8,18 @@ database: database
 expanded:
 - configuracao-e-aquecimento
 - bloco_a-configuração-de-ambiente
-- bloco_a-práticas-com-o-git
 - bloco_a-treino-de-algoritmos
 - campanha-principal
 - bloco_b-primeiras-classes
+- bloco_a-práticas-com-o-git
 tasks:
   animal: '{rate:100}'
+  calculadora: '{rate:100}'
+  enxugar: '{rate:100}'
 flags:
   quests: 0
   tracks: 0
   tasks: 0
   graph: 0
   xray: 0
-index: calculadora
+index: carro

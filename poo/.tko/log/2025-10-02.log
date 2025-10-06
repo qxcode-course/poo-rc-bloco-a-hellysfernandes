@@ -1,0 +1,11 @@
+2025-10-02 08:35:26, EXEC, v:1, k:carro, mode:FULL, rate:0
+2025-10-02 09:56:18, EXEC, v:1, k:carro, mode:FULL, rate:60, size:52
+2025-10-02 18:24:51, MOVE, v:1, k:carro, mode:PICK
+2025-10-02 18:24:58, MOVE, v:1, k:carro, mode:PICK
+2025-10-02 18:45:05, MOVE, v:1, k:carro, mode:PICK
+2025-10-02 18:45:12, MOVE, v:1, k:carro, mode:PICK
+2025-10-02 18:45:33, MOVE, v:1, k:carro, mode:PICK
+2025-10-02 18:45:59, MOVE, v:1, k:carro, mode:PICK
+2025-10-02 18:50:27, MOVE, v:1, k:carro, mode:PICK
+2025-10-02 18:52:58, MOVE, v:1, k:carro, mode:PICK
+2025-10-02 18:52:59, EXEC, v:1, k:carro, mode:FULL, rate:60, size:64
